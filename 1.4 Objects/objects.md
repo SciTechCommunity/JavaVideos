@@ -1,4 +1,4 @@
-Hey there Students! In this video we are going to cover what an object is and how Java uses Objects as a core part of it's language. A *class* is a fundamental part of Java and is made up of data and methods. An *Object* is an instance of a class that may differ in attributes. Data is value, such as a sword dealing 5 damage. Methods are behaviours that handle data in the Object, such as how **hero.attack(bandit)** would use the sword damage to attack an enemy. 
+Hey there Students! In this video we are going to cover what an object is and how Java uses Objects as a core part of it's language. First we need to know what a *class* is. A class is made up of data and methods. An *Object* is an instance of a class that may differ in attributes. Data is value, such as a sword dealing 5 damage. Methods are behaviours that handle data in the Object, such as how **hero.attack(bandit)** would use the sword damage to attack an enemy. 
 
 
 Java groups objects into classes according to their behaviour. So a class for *swords* and *daggers* would be separate from *armor* and *shield*. On a more base level, the Strings "sword" and "dagger" and "armor" would belong to the String class because they are the same data type. 
@@ -12,7 +12,7 @@ Now what is going on here? We are creating a bandit object that is apart of an E
 
 This creates a *bandit* object that we may use as much as we want. For example now we can call **bandit.attack(hero)**!
 
-You might have already guessed this from looking at our example, but to access methods or data from the Object you have to use the period( **.** ) symbol to move each level down. Imagine it's a tree. You start off at bandit, and navigate down to the methods instead of bandit. 
+You might have already guessed this from looking at our example, but to access methods or data from the Object you have to use the period (**.**) symbol to move each level down. Imagine it's a tree. You start off at bandit, and navigate down to the methods instead of bandit. 
 
 So if we wanted to find out how much health a bandit has, we would look at the class below.
 ```java
