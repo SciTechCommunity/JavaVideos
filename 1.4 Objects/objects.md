@@ -5,7 +5,9 @@ Java groups objects into classes according to their behaviour. So a class for *s
 
 
 To create an Object in Java, you have to initialize it, meaning you give it meaningful data. 
-**Enemy bandit = new Enemy(15, 45, 3)**  // Create a Bandit enemy with Stamina, Health, Damage 
+```Java
+Enemy bandit = new Enemy(15, 45, 3)  // Create a Bandit enemy with Stamina, Health, Damage 
+```
 This creates a *bandit* object that we may use as much as we want. For example now we can call **bandit.Attack(hero)**!
 
 You might have already guessed this from looking at our example, but to access methods or data from the Object you have to use the period( **.** ) symbol to move each level down. Imagine it's a tree. You start off at bandit, and navigate down to the methods instead of bandit. 
