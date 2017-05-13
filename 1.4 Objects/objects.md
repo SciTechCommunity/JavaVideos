@@ -5,7 +5,11 @@ Java groups objects into classes according to their behaviour. So a class for *s
 
 
 To create an Object in Java, you have to initialize it, meaning you give it meaningful data. 
-**Enemy bandit = new Enemy(15, 45, 3)**  // Create a Bandit enemy with Stamina, Health, Damage 
+
+**Enemy bandit = new Enemy(15, 45, 3)** 
+
+Now what is going on here? We are creating a bandit object that is apart of an Enemy class, and we are setting 3 values to 15, 45, and 3. We can call these Stamina, Health, and attack, although they can be anything you want them to be.
+
 This creates a *bandit* object that we may use as much as we want. For example now we can call **bandit.attack(hero)**!
 
 You might have already guessed this from looking at our example, but to access methods or data from the Object you have to use the period( **.** ) symbol to move each level down. Imagine it's a tree. You start off at bandit, and navigate down to the methods instead of bandit. 
@@ -13,10 +17,11 @@ You might have already guessed this from looking at our example, but to access m
 So if we wanted to find out how much health a bandit has, we would look at the class below.
 ```java
 Enemy{
-    attack()
-    heal()
-    getHealth()
-    getDamage()
+    Enemy(stamina, health, damage);
+    attack();
+    heal();
+    getHealth();
+    getDamage();
 }
 ```
 And then go **bandit.getHealth()**, we would get the health of the bandit displayed to us! This is called an *Accessor methods*, which just returns data without altering it at all.
