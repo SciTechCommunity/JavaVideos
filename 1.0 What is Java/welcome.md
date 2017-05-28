@@ -1,0 +1,1 @@
+Greetings, are you another adventurer on the journey to discover how to code? It's dangerous to go alone, so take our tutorials with you! In this video we will help you get to the HUB of your journies: *Eclipse*. This place has so much to offer a daring programmer. However before we set you up and let you loose in this open world, we have to explain what Java actually i
