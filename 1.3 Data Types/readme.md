@@ -50,9 +50,11 @@ These numeric types will have 0, 0L for Longs, as their default value.
    Doubles are a form of floating point data that contains 8 bytes. You can use any numberic value and it can be fractional with decimals. It has twice the percision of a float. The default value will be 0d.
 
 + Character `char`
+
    Characters are a form of character data that contains 2 bytes. You can use any unicode character and it will be case sensitive. Therefore you have all 26 letters of the alphabet, lower and uppercase.    
 
 + Booleen
+
    Booleens are a form of true/false data that contains 1 byte. You can either set this value to true or false, with false being the default.
 
 
