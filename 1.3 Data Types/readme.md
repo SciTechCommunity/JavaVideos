@@ -29,7 +29,7 @@ Within the primitive types we have:
 
 + Shorts
 
-   Shorts are a form of numeric type that contains 2 bytes. You can use any numeric value (-32,768,32,767) that is a whole number.
+   Shorts are a form of numeric type that contains 16 bits. You can use any numeric value (-32,768,32,767) that is a whole number.
 
 + Integers `int`
 
