@@ -10,9 +10,11 @@ To create an Object in Java, you have to initialize it, meaning you give it mean
 
 Now what is going on here? Let's break it down
 
-First we are creating a **Reference variable** to an **Enemy** object called **bandit**
+First we are creating a **Reference variable** to an **Enemy** object called **bandit** to represent a bandit in our program.
+//TODO: Expend on "reference variable"
 
-Next we're doing the Instantiation, using the **new** keyword and calling the **constructor** of the **Enemy** class and we are setting 3 values to 15, 45, and 3. We can call these Stamina, Health, and attack, although they can be anything you want them to be.
+Next we're doing the Instantiation, using the **new** keyword and calling the **constructor** of the **Enemy** class. We are setting 3 values: 15, 45, and 3. These will represent the Stamina, Health, and attack of our bandit.
+//TODO: show constructor and maybe expend on it.
 
 This creates **bandit**, a reference to the a **Enemy** object that we created with **new Enemy(15, 45, 3);**. We may use as much as we want. For example now we can call **bandit.attack(hero)**!
 
