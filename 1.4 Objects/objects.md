@@ -26,7 +26,7 @@ public Enemy(int stamina, int health, int attack)
 }
 ```
 
-Using the keyword `this` whe're setting the value of fields in the class to those passed to the constructor
+Using the keyword `this` we're setting the value of fields in the class to those passed to the constructor
 
 This creates **bandit**, a reference to the a **Enemy** object that we created with `new Enemy(15, 45, 3);`. We may use as much as we want. For example now we can call `bandit.attack(hero)`!
 
