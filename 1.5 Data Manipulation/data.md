@@ -43,4 +43,4 @@ public void PoisonPotion(Character target)
     target.SetHealth( target.getHealth() - 10 );
 }
 ```
-This poison poition will take 10 health away from whatever the current target's health is.
+This poison poition will take 10 health away from whatever the current target's health is. This is a great example of how you can make custom effects to alter characters in the game. 
