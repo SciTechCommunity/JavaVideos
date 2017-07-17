@@ -8,9 +8,14 @@ To create an Object in Java, you have to initialize it, meaning you give it mean
 
 **Enemy bandit = new Enemy(15, 45, 3)** 
 
-Now what is going on here? We are creating a bandit object that is apart of an Enemy class, and we are setting 3 values to 15, 45, and 3. We can call these Stamina, Health, and attack, although they can be anything you want them to be.
+Now what is going on here? Let's break it down
 
-This creates a *bandit* object that we may use as much as we want. For example now we can call **bandit.attack(hero)**!
+First we are creating a **Reference variable** to an **Enemy** object called **bandit**
+
+Next we're doing the Instantiation, using the **new** keyword and calling the **constructor** of the **Enemy** class and we are setting 3 values to 15, 45, and 3. We can call these Stamina, Health, and attack, although they can be anything you want them to be.
+
+This creates **bandit**, a reference to the a **Enemy** object that we created with **new Enemy(15, 45, 3);**. We may use as much as we want. For example now we can call **bandit.attack(hero)**!
+
 
 You might have already guessed this from looking at our example, but to access methods or data from the Object you have to use the period (**.**) symbol to move each level down. Imagine it's a tree. You start off at bandit, and navigate down to the methods instead of bandit. 
 
