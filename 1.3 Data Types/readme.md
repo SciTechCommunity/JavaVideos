@@ -33,35 +33,35 @@ Within the primitive types we have:
 
 + Integers `int`
 
-   Integers are a form of numeric type that contains 4 bytes. You can use any numeric value (-2^31, 2^31) that is a whole number. It is the most commonly used numeric type for whole numbers.
+   Integers are a form of numeric type that contains 32 bits. You can use any numeric value (-2^31, 2^31) that is a whole number. It is the most commonly used numeric type for whole numbers.
 
 + Longs 
 
-   Longs are a form of numeric type that contains 8 bytes. You can use any numeric value (-2^63, 2^63) that is a whole number.
+   Longs are a form of numeric type that contains 64 bits. You can use any numeric value (-2^63, 2^63) that is a whole number.
    
 These numeric types will have 0, 0L for Longs, as their default value.
 
 + Floats 
 
-   Floats are a form of floating point data that contains 4 bytes. You can use any numeric value and it can be fractional with decimals. The default value will be 0f.
+   Floats are a form of floating point data that contains 32 bits. You can use any numeric value and it can be fractional with decimals. The default value will be 0f.
    
    ``` speed = 14.0f;```
 
 + Doubles
 
-   Doubles are a form of floating point data that contains 8 bytes. You can use any numberic value and it can be fractional with decimals. It has twice the percision of a float. The default value will be 0d.
+   Doubles are a form of floating point data that contains 64 bits. You can use any numberic value and it can be fractional with decimals. It has twice the percision of a float. The default value will be 0d.
    
    ``` maxHealth = 100.00;```
 
 + Character `char`
 
-   Characters are a form of character data that contains 2 bytes. You can use any unicode character and it will be case sensitive. Therefore you have all 26 letters of the alphabet, lower and uppercase.    
+   Characters are a form of character data that contains 16 bits. You can use any unicode character or symbol and it will be case sensitive. Since unicode is universial, you can code emojis or other symbols and have them appear across different devices without having to worry about the specfic operating system or language. 
    
    ``` firstLetterOfName = 'Z'; ```
 
 + Boolean
 
-   Booleans are a form of true/false data that contains 1 byte. You can either set this value to true or false, with false being the default.
+   Booleans are a form of true/false data that contains 8 bits. You can either set this value to true or false, with false being the default.
 
 ``` itsRaining = true; ```
 
