@@ -44,19 +44,26 @@ These numeric types will have 0, 0L for Longs, as their default value.
 + Floats 
 
    Floats are a form of floating point data that contains 4 bytes. You can use any numeric value and it can be fractional with decimals. The default value will be 0f.
+   
+   ``` speed = 14.0f;```
 
 + Doubles
 
    Doubles are a form of floating point data that contains 8 bytes. You can use any numberic value and it can be fractional with decimals. It has twice the percision of a float. The default value will be 0d.
+   
+   ``` maxHealth = 100.00;```
 
 + Character `char`
 
    Characters are a form of character data that contains 2 bytes. You can use any unicode character and it will be case sensitive. Therefore you have all 26 letters of the alphabet, lower and uppercase.    
+   
+   ``` firstLetterOfName = 'Z'; ```
 
-+ Booleen
++ Boolean
 
-   Booleens are a form of true/false data that contains 1 byte. You can either set this value to true or false, with false being the default.
+   Booleans are a form of true/false data that contains 1 byte. You can either set this value to true or false, with false being the default.
 
+``` itsRaining = true; ```
 
 Within the non-primitive, "reference" or "object" types we have:
 
