@@ -59,8 +59,8 @@ These numeric types will have 0, 0L for Longs, as their default value.
 
 
 Within the non-primitive, "reference" or "object" types we have:
-<ul>
-<li>Strings</li>
-<li>Arrays</li>
-</ul>
+
++ Strings
++ Arrays
+
 These are types defined by classes. We'll continue to cover these in the next video.
