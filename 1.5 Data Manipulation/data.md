@@ -43,4 +43,22 @@ public void PoisonPotion(Character target)
     target.SetHealth( target.getHealth() - 10 );
 }
 ```
-This poison poition will take 10 health away from whatever the current target's health is. This is a great example of how you can make custom effects to alter characters in the game. 
+This poison poition will take 10 health away from whatever the current target's health is. This is a great example of how you can make custom effects to alter characters in the game. Now that you see how easy it can be to create methods to manipulate data, let's discuss using algorithms to further manipulate data.  
+
+
+Imagine your game takes place on a 4x4 grid. There are 16 total spaces available to move to, and let's say that the bottom row has a bandit moving side to side. This code would look like:
+
+```
+while(true){
+    for(int i = 9; i <13; i++){
+        bandit.MoveTo(i);
+    }
+    if(bandit.getLocation() == 12){
+        for(int i = 12; i > 8; i--){
+            bandit.MoveTo(i);
+        }
+    }
+}
+```
+
+This *algorithm* has the bandit walking back and forth.
