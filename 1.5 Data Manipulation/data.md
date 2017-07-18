@@ -44,7 +44,9 @@ public void PoisonPotion(Character target)
     if(target.getHealth() <= 0){ target.die(); }
 }
 ```
-This poison poition will take 10 health away from whatever the current target's health is. This is a great example of how you can make custom effects to alter characters in the game. It's also important to remember that you need to keep track of the targets health in case a special effect kills them or modifies data in a way that that you haven't covered yet. Now that you see how easy it can be to create methods to manipulate data, let's discuss using algorithms to further manipulate data.  
+This poison poition will take 10 health away from whatever the current target's health is. This is a great example of how you can make custom effects to alter characters in the game. It's also important to remember that you need to keep track of the targets health in case a special effect kills them or modifies data in a way that that you haven't covered yet. An example of this would be if you tried to poison a character named *steve* who does not exist. This would throw an error because you haven't gotten to the point yet where you safeguard your code against different errors. We will cover that in a later section, for now make sure to only poison characters that exist. :)
+
+Now that you see how easy it can be to create methods to manipulate data, let's discuss using algorithms to further manipulate data.  
 
 
 Imagine your game takes place on a 4x4 grid. There are 16 total spaces available to move to, and let's say that the bottom row has a bandit moving side to side. This code would look like:
